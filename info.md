@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Acerca de
+permalink: /info/
 ---
 
 Este es un blog dedicado a compartir tips, tutoriales y notas personales sobre el diseño de circuitos electronicos y programacion.
