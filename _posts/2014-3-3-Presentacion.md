@@ -4,7 +4,7 @@ title: Presentacion del Blog
 ---
   El que, como y porque de este blog.
   
-  
+  -
   
   Una frase muy comun en el mundo laboral es que la experiencia no se puede aprender. Pero luego cuando uno se equivoca en algo sencillo y pide ayuda o busca informacion sobre eso, otra frase comun es 'Como no sabias esto? Es algo basico'.
   
