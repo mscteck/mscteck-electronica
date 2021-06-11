@@ -4,6 +4,7 @@ title: Presentacion del Blog
 ---
   El que, como y porque de este blog.
   
+  
   Una frase muy comun en el mundo laboral es que la experiencia no se puede aprender. Pero luego cuando uno se equivoca en algo sencillo y pide ayuda o busca informacion sobre eso, otra frase comun es 'Como no sabias esto? Es algo basico'.
   
   Lo que nos lleva a la realidad: hay cosas que no se pueden aprender estudiando, como podria ser la habilidad para efectuar cierta tarea, que metodo de programacion nos resulta mas practico a nosotros, o como tratar con los clientes. Son cosas que podriamos estudiar y analizar, pero la habilidad la conseguiremos con practica y tiempo. Eso, es experiencia.
