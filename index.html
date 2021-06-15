@@ -1,18 +1,49 @@
 ---
 layout: default
 ---
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Seguir Leyendo</a>
-    </article>
+<script> let currentTag = 'all'; </script>
+<div class="tags-box">
+  <h2 class="tag-heading">Tags</h2>
+  <button class="blog-tag-item active-tag" id="all-item">
+    <a href onclick="filter('all'); return false;" class="active-tag">Todos los Posts</a>
+  </button>
+  {% assign sorted_tags = site.tags | sort %}
+  {% for tag in sorted_tags %}
+    {% assign t = tag | first %}
+    {% assign posts = tag | last %}
+    <button class="blog-tag-item" id="{{ t }}-item">
+      <a href onclick="filter('{{ t }}'); return false;">{{ t }}</a>
+    </button>
   {% endfor %}
 </div>
+
+<div class="posts">
+    {% assign pinnedPost = site.posts.last %}
+    <article id="pinned-post">
+      <p class="hidden">{{ pinnedPost.tags | jsonify }}</p>
+      <h1><a href="{{ site.baseurl }}{{ pinnedPost.url }}">{{ pinnedPost.title }}</a></h1>
+      {% assign array = post.date | split: " " %}
+      <div class="entry">
+        {{ pinnedPost.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ pinnedPost.url }}" class="read-more">Seguir Leyendo</a>
+      <p class="date">{{ array.first }}</p>
+    </article>
+    {% assign array = site.posts | pop %}
+    {% for post in array %}
+      <article class="post hidden">
+        <p class="hidden">{{ post.tags | jsonify }}</p>
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        {% assign array = post.date | split: " " %}
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
+
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Seguir Leyendo</a>
+        <p class="date">{{ array.first }}</p>
+      </article>
+    {% endfor %}
+</div>
+
+<script> filter('all') </script>

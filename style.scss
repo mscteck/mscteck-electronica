@@ -241,6 +241,40 @@ nav {
 // .main
 //
 
+.blog-tag-item{
+  font-size: medium;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.active-tag{
+  background-color: darkslategrey;
+  color: antiquewhite;
+}
+
+.hidden {
+  display: none!important;
+  visibility: hidden!important;
+}
+
+.entry{
+  font-size: 22px;
+}
+
+.post-date{
+  font-style: italic;
+  color: grey;
+}
+
+#pinned-post{
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
