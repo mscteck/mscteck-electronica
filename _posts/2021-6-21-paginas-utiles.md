@@ -60,8 +60,7 @@ Buscar componentes filtrando por categorias, caracteristicas electricas, encapsu
 Hay muchas paginas de distribuidores que tienen esas funciones, pero una de las mejores que conozco es [Mouser](https://ar.mouser.com).
 
 Por que no usar Digikey, mencionado mas arriba?  
-Bueno, por que no estamos hablando de comprar en su pagina. Sino de usarlo como un buscador especializado en componentes electronicos.  
-Y lo bueno es que aca en argentina hay muchos vendedores que trabajan con Mouser como proveedor. Asi que es muy probable que si algo lo encontramos en su pagina lo encontremos en el mercado nacional.
+Bueno, por que si bien no estamos hablando de comprar en su pagina sino de usarlo como un buscador especializado en componentes electronicos, aqui en Argentina hay muchos vendedores que trabajan con Mouser como proveedor. Asi que es muy probable que si algo lo encontramos en su pagina lo encontremos en el mercado nacional.
 
 Bueno eso es todo por este articulo sobre herramientas web para el diseño electronico.  
 Si conocen mas herramientas que puedan ser utiles o tienen preguntas sobre las aca mencionadas no duden en contactarme.  
